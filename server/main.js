@@ -12,7 +12,7 @@ var messages = [{
 app.use(express.static('public'));
 
 app.get('/', function(req, res) {
-  res.sendFile(../public/index.html);
+  res.sendFile('public/index.html');
 });
 
 app.get('/hello', function(req, res) {
